@@ -1,0 +1,10 @@
+#!/bin/sh 
+user=$(git config user.name)
+date="last week"
+if [ -n "$1" ]
+then
+    date="$1"
+fi
+echo "\n  本周工作:\n"
+git log --since="$date" --author=$user --pretty='%s (%ad)' --date='short' | sed -n 's/^/    - /p'
+echo "\n" 
