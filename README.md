@@ -35,6 +35,3 @@ $ git weekly "3 day"
 ```
 
 
-.
-
-
