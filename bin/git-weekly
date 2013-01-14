@@ -1,5 +1,5 @@
 #!/bin/sh 
-user=$(git config user.name)
+user="$(git config user.name)"
 date="last week"
 if [ -n "$1" ]
 then
