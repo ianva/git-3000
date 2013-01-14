@@ -1,6 +1,6 @@
 # git-3000 
 
-git-3000 是一个git的shell工具合集，拥有要你命3000一样的强大的威力，帮你轻松的完成工作。
+git-3000 是一个<span style="color:#c00">git</span>的shell工具合集，拥有要你命3000一样的强大的威力，帮你轻松的完成工作。
 
 ## Installation
 Clone / Tarball:
